@@ -5,7 +5,7 @@ require 'json'
 
 #Guardar la url y api key de los Rovers de la NASA
 url_NASA = 'https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=1000&'
-api_NASA = 'api_key=DEMO_KEY'
+api_NASA = 'api_key=gy0N21ifRPvdR54UWBQTAIMR9QhFmEc9Ry1JcP4G'
 
 #Se obtiene los datos desde la API
 def request(address, api_key)
